@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const animals_1 = require("./animals");
+const myCat = new animals_1.Cat("Tom", 3, "gray");
+const myBird = new animals_1.Bird("Birdie", undefined, "yellow");
+const myFish = new animals_1.Fish("Nemo", 1, "orange");
+myCat.move();
+myBird.move();
+myFish.move();
+myCat.makeSound();
+myBird.makeSound();
+myFish.makeSound();
